@@ -1392,7 +1392,8 @@ h2.title {
 }
 
 .login-form {
-
+display: inline-block;
+width : 40%;
 }
 
 .signup-form {
@@ -1422,22 +1423,23 @@ h2.title {
 	width: 100%;
 }
 
-.login-form form span {
+#spree_user_remember_me {
 	line-height: 25px;
 }
 
-.login-form form span input {
+#spree_user_remember_me {
 	width: 15px;
 	float: left;
 	height: 15px;
 	margin-right: 5px;
 }
 
-.login-form form button {
+.login-form form .button   {
 	margin-top: 23px;
+	width :15%
 }
 
-.login-form form button, .signup-form form button {
+.login-form form .button, .signup-form form .button {
 	background: #FE980F;
 	border: medium none;
 	border-radius: 0;
@@ -1446,7 +1448,9 @@ h2.title {
 	font-family: 'Roboto', sans-serif;
 	padding: 6px 25px;
 }
-
+.login-form form .button#hover  {
+	background: #696763;
+}
 .login-form label {
 
 }
